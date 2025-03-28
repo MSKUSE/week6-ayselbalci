@@ -8,9 +8,17 @@ public class Point {
         this.xCoord = x;
         this.yCoord = y;
     }
+    @Override
+    public String toString() {
+        return "Point{" +
+                "xCoord=" + xCoord +
+                ", yCoord=" + yCoord +
+                '}';
+    }
 
     public Point(int xy){
         this.xCoord = xy;
         this.yCoord = xy;
+
     }
 }

@@ -1,8 +1,22 @@
 public class Main {
     public static void main(String[] args) {
 
-        Point p1 = new Point();
-        String s1 = new String( "Ali");
+        Point p1 = new Point(3, 4);
+        Rectangle r1 = new Rectangle(p, 3, 4);
+        System.out.println(r1.area());
+
+
+        Rectangle r2 = new Rectangle(p,3, 4);
+        System.out.println(Rectangle.counter);
+        System.out.println(r1.counterForObject);
+        System.out.println(r2.counterForObject);
+
+        System.out.println(Integer.parseInt(3));
+
+    }
+}
+
+/*String s1 = new String( "Ali");
 
         System.out.println(p1.xCoord);
         System.out.println(p1.yCoord);
@@ -38,4 +52,4 @@ public class Main {
         System.out.println(c1.getRadius());
 
     }
-}
+}*\
